@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/tests/CMakeLists.txt
+  DTest.cpp
+  DOMTest.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS17\tests\Release\DOMTest.exe

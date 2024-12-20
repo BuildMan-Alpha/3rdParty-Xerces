@@ -1,0 +1,777 @@
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_030a5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_030a5.dir\Debug\\" /Fd"cmTC_030a5.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'arpa/inet.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_030a5.vcxproj]
+
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_71919.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_71919.dir\Debug\\" /Fd"cmTC_71919.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_71919.vcxproj]
+
+
+
+Determining if the include file langinfo.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_0820f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_0820f.dir\Debug\\" /Fd"cmTC_0820f.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'langinfo.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_0820f.vcxproj]
+
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_f87bf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_f87bf.dir\Debug\\" /Fd"cmTC_f87bf.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'netdb.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_f87bf.vcxproj]
+
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_bccc9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_bccc9.dir\Debug\\" /Fd"cmTC_bccc9.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'netinet/in.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_bccc9.vcxproj]
+
+
+
+Determining if the include file nl_types.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_27a5e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_27a5e.dir\Debug\\" /Fd"cmTC_27a5e.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'nl_types.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_27a5e.vcxproj]
+
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_3501c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_3501c.dir\Debug\\" /Fd"cmTC_3501c.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'strings.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_3501c.vcxproj]
+
+
+
+Determining if the include file sys/param.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_10bb3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_10bb3.dir\Debug\\" /Fd"cmTC_10bb3.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_10bb3.vcxproj]
+
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ae8d9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_ae8d9.dir\Debug\\" /Fd"cmTC_ae8d9.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'sys/socket.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_ae8d9.vcxproj]
+
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_1b661.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_1b661.dir\Debug\\" /Fd"cmTC_1b661.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_1b661.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_753b7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_753b7.dir\Debug\\" /Fd"cmTC_753b7.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  
+  CheckIncludeFile.cxx
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_753b7.vcxproj]
+
+
+
+Determining if the include file endian.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_34b82.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_34b82.dir\Debug\\" /Fd"cmTC_34b82.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'endian.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_34b82.vcxproj]
+
+
+
+Determining if the include file machine/endian.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_33b61.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_33b61.dir\Debug\\" /Fd"cmTC_33b61.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'machine/endian.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_33b61.vcxproj]
+
+
+
+Determining if the include file arpa/nameser_compat.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_82320.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_82320.dir\Debug\\" /Fd"cmTC_82320.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'arpa/nameser_compat.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_82320.vcxproj]
+
+
+
+Determining if the function pathconf exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_15611.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pathconf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15611.dir\Debug\\" /Fd"cmTC_15611.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _pathconf referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_15611.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_15611.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_15611.vcxproj]
+
+
+
+Determining if the function realpath exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_c4870.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=realpath /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4870.dir\Debug\\" /Fd"cmTC_c4870.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _realpath referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_c4870.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_c4870.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_c4870.vcxproj]
+
+
+
+Determining if the function getaddrinfo exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_16daf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getaddrinfo /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16daf.dir\Debug\\" /Fd"cmTC_16daf.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _getaddrinfo referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_16daf.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_16daf.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_16daf.vcxproj]
+
+
+
+Determining if the function gethostbyaddr exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_54c77.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyaddr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54c77.dir\Debug\\" /Fd"cmTC_54c77.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gethostbyaddr referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_54c77.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_54c77.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_54c77.vcxproj]
+
+
+
+Determining if the function gethostbyname exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_f86c1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gethostbyname /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f86c1.dir\Debug\\" /Fd"cmTC_f86c1.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gethostbyname referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_f86c1.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_f86c1.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_f86c1.vcxproj]
+
+
+
+Determining if the function socket exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_b78ef.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=socket /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b78ef.dir\Debug\\" /Fd"cmTC_b78ef.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _socket referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_b78ef.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_b78ef.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_b78ef.vcxproj]
+
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_a4d1a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=clock_gettime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4d1a.dir\Debug\\" /Fd"cmTC_a4d1a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _clock_gettime referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_a4d1a.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_a4d1a.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_a4d1a.vcxproj]
+
+
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_63d55.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63d55.dir\Debug\\" /Fd"cmTC_63d55.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_63d55.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_63d55.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_63d55.vcxproj]
+
+
+
+Determining if the function gmtime_r exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_31c75.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gmtime_r /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31c75.dir\Debug\\" /Fd"cmTC_31c75.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gmtime_r referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_31c75.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_31c75.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_31c75.vcxproj]
+
+
+
+Determining if the function nl_langinfo exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_642eb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=nl_langinfo /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_642eb.dir\Debug\\" /Fd"cmTC_642eb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _nl_langinfo referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_642eb.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_642eb.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_642eb.vcxproj]
+
+
+
+Determining if the function snprintf exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_2eda2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=snprintf /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2eda2.dir\Debug\\" /Fd"cmTC_2eda2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _snprintf referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_2eda2.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_2eda2.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_2eda2.vcxproj]
+
+
+
+Determining if the function strcasecmp exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_3d920.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strcasecmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d920.dir\Debug\\" /Fd"cmTC_3d920.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strcasecmp referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_3d920.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_3d920.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_3d920.vcxproj]
+
+
+
+Determining if the function strncasecmp exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ace0d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strncasecmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ace0d.dir\Debug\\" /Fd"cmTC_ace0d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _strncasecmp referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_ace0d.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ace0d.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_ace0d.vcxproj]
+
+
+
+Determining if the function timegm exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_1e21e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=timegm /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e21e.dir\Debug\\" /Fd"cmTC_1e21e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _timegm referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_1e21e.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_1e21e.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_1e21e.vcxproj]
+
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_3d812.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d812.dir\Debug\\" /Fd"cmTC_3d812.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c
+  
+  SIZEOF_SSIZE_T.c
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(26): error C2065: 'ssize_t': undeclared identifier [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_3d812.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(27): error C2065: 'ssize_t': undeclared identifier [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_3d812.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(28): error C2065: 'ssize_t': undeclared identifier [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_3d812.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(29): error C2065: 'ssize_t': undeclared identifier [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_3d812.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c(30): error C2065: 'ssize_t': undeclared identifier [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_3d812.vcxproj]
+
+
+C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stddef.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_e9ac8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e9ac8.dir\Debug\\" /Fd"cmTC_e9ac8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  CheckIncludeFile.c
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_e9ac8.vcxproj]
+
+
+
+Determining if the include file nl_types.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_6d5c1.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_6d5c1.dir\Debug\\" /Fd"cmTC_6d5c1.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'nl_types.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_6d5c1.vcxproj]
+
+
+
+Determining if the function catopen exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ba783.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=catopen /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ba783.dir\Debug\\" /Fd"cmTC_ba783.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _catopen referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_ba783.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ba783.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_ba783.vcxproj]
+
+
+
+Determining if the function catclose exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_6f68d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=catclose /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6f68d.dir\Debug\\" /Fd"cmTC_6f68d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _catclose referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_6f68d.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_6f68d.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_6f68d.vcxproj]
+
+
+
+Determining if the function catgets exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_c4dff.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=catgets /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4dff.dir\Debug\\" /Fd"cmTC_c4dff.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _catgets referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_c4dff.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_c4dff.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_c4dff.vcxproj]
+
+
+
+Determining if the include file iconv.h exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_da75c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_da75c.dir\Debug\\" /Fd"cmTC_da75c.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx(1): fatal error C1083: Cannot open include file: 'iconv.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_da75c.vcxproj]
+
+
+
+Determining if the function iconv_open exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_76bcf.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=iconv_open /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76bcf.dir\Debug\\" /Fd"cmTC_76bcf.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _iconv_open referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_76bcf.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_76bcf.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_76bcf.vcxproj]
+
+
+
+Determining if the function iconv_close exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_5fd51.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=iconv_close /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fd51.dir\Debug\\" /Fd"cmTC_5fd51.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _iconv_close referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_5fd51.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_5fd51.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_5fd51.vcxproj]
+
+
+
+Determining if the function iconv exists failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_28087.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=iconv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28087.dir\Debug\\" /Fd"cmTC_28087.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _iconv referenced in function _main [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_28087.vcxproj]
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_28087.exe : fatal error LNK1120: 1 unresolved externals [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_28087.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CPUID_H failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_49a30.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CPUID_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_49a30.dir\Debug\\" /Fd"cmTC_49a30.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx(2): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_49a30.vcxproj]
+
+
+Source file was:
+
+#include <cpuid.h>
+
+int main() {
+  return 0;
+}
+Performing C++ SOURCE FILE Test XERCES_HAVE_GETCPUID failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_6a0ed.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D XERCES_HAVE_GETCPUID /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_6a0ed.dir\Debug\\" /Fd"cmTC_6a0ed.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx(2): fatal error C1083: Cannot open include file: 'cpuid.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_6a0ed.vcxproj]
+
+
+Source file was:
+
+#include <cpuid.h>
+
+int main() {
+  unsigned int eax, ebx, ecx, edx;
+  __get_cpuid (1, &eax, &ebx, &ecx, &edx);
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_PATH_MAX failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_120fe.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_PATH_MAX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_120fe.dir\Debug\\" /Fd"cmTC_120fe.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx(4): error C2065: 'PATH_MAX': undeclared identifier [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_120fe.vcxproj]
+
+
+Source file was:
+
+#include <limits.h>
+int main(void) {
+  char dummy[PATH_MAX];
+  return 0;
+}
+Performing C++ SOURCE FILE Test ICONV_USES_CONST_POINTER failed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_80973.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D ICONV_USES_CONST_POINTER /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_80973.dir\Debug\\" /Fd"cmTC_80973.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx(2): fatal error C1083: Cannot open include file: 'iconv.h': No such file or directory [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_80973.vcxproj]
+
+
+Source file was:
+
+#include <iconv.h>
+
+int main(void) {
+  const char *fromPtr=0;
+  size_t     fromLen=0;
+  char       *toPtr=0;
+  size_t     toLen=0;
+  iconv_t    cv=0;
+  iconv(cv, &fromPtr, &fromLen, &toPtr, &toLen);
+  return 0;
+}

@@ -1,0 +1,367 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/src/CMakeLists.txt
+  Base64.cpp
+  BinFileInputStream.cpp
+  BinInputStream.cpp
+  BinMemInputStream.cpp
+  BitSet.cpp
+  DefaultPanicHandler.cpp
+  EncodingValidator.cpp
+  HeaderDummy.cpp
+  HexBin.cpp
+  JanitorExports.cpp
+  KVStringPair.cpp
+  Mutexes.cpp
+  PanicHandler.cpp
+  PlatformUtils.cpp
+  PSVIUni.cpp
+  QName.cpp
+  ASCIIRangeFactory.cpp
+  BlockRangeFactory.cpp
+  BMPattern.cpp
+  CharToken.cpp
+  Generating Code...
+  Compiling...
+  ClosureToken.cpp
+  ConcatToken.cpp
+  Match.cpp
+  Op.cpp
+  OpFactory.cpp
+  ParenToken.cpp
+  ParserForXMLSchema.cpp
+  RangeFactory.cpp
+  RangeToken.cpp
+  RangeTokenMap.cpp
+  RegularExpression.cpp
+  RegxParser.cpp
+  RegxUtil.cpp
+  StringToken.cpp
+  Token.cpp
+  TokenFactory.cpp
+  UnicodeRangeFactory.cpp
+  UnionToken.cpp
+  XMLRangeFactory.cpp
+  XMLUniCharacter.cpp
+  Generating Code...
+  Compiling...
+  StringPool.cpp
+  SynchronizedStringPool.cpp
+  TransService.cpp
+  XMemory.cpp
+  XML256TableTranscoder.cpp
+  XML88591Transcoder.cpp
+  XMLAbstractDoubleFloat.cpp
+  XMLASCIITranscoder.cpp
+  XMLBigDecimal.cpp
+  XMLBigInteger.cpp
+  XMLChar.cpp
+  XMLChTranscoder.cpp
+  XMLDateTime.cpp
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLDateTime.cpp(477): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned long', possible loss of data
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLDateTime.cpp(479): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned long', possible loss of data
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLDateTime.cpp(481): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned long', possible loss of data
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLDateTime.cpp(483): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned long', possible loss of data
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLDateTime.cpp(492): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLDateTime.cpp(500): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(496): note: see declaration of 'gmtime'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLDateTime.cpp(564): warning C4244: '+=': conversion from 'double' to 'time_t', possible loss of data
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLDateTime.cpp(580): warning C4996: '__timezone': This function or variable may be unsafe. Consider using _get_timezone instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(74): note: see declaration of '__timezone'
+  XMLDouble.cpp
+  XMLEBCDICTranscoder.cpp
+  XMLException.cpp
+  XMLFloat.cpp
+  XMLIBM1047Transcoder.cpp
+  XMLIBM1140Transcoder.cpp
+  XMLInitializer.cpp
+  Generating Code...
+  Compiling...
+  XMLMsgLoader.cpp
+  XMLNumber.cpp
+  XMLString.cpp
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLString.cpp(321): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(90): note: see declaration of 'strcat'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLString.cpp(327): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(549): note: see declaration of 'stricmp'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLString.cpp(350): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(560): note: see declaration of 'strnicmp'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLString.cpp(364): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): note: see declaration of 'strcpy'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XMLString.cpp(594): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strnicmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(560): note: see declaration of 'strnicmp'
+  XMLStringTokenizer.cpp
+  XMLUCS4Transcoder.cpp
+  XMLUni.cpp
+  XMLUri.cpp
+  XMLURL.cpp
+  XMLUTF16Transcoder.cpp
+  XMLUTF8Transcoder.cpp
+  XMLWin1252Transcoder.cpp
+  DOMException.cpp
+  DOMLSException.cpp
+  DOMRangeException.cpp
+  DOMXPathException.cpp
+  DOMAttrImpl.cpp
+  DOMAttrMapImpl.cpp
+  DOMAttrNSImpl.cpp
+  DOMCDATASectionImpl.cpp
+  DOMCharacterDataImpl.cpp
+  Generating Code...
+  Compiling...
+  DOMChildNode.cpp
+  DOMCommentImpl.cpp
+  DOMConfigurationImpl.cpp
+  DOMDeepNodeListImpl.cpp
+  DOMDocumentFragmentImpl.cpp
+  DOMDocumentImpl.cpp
+  DOMDocumentTypeImpl.cpp
+  DOMElementImpl.cpp
+  DOMElementNSImpl.cpp
+  DOMEntityImpl.cpp
+  DOMEntityReferenceImpl.cpp
+  DOMErrorImpl.cpp
+  DOMImplementationImpl.cpp
+  DOMImplementationListImpl.cpp
+  DOMImplementationRegistry.cpp
+  DOMLocatorImpl.cpp
+  DOMNamedNodeMapImpl.cpp
+  DOMNodeIDMap.cpp
+  DOMNodeImpl.cpp
+  DOMNodeIteratorImpl.cpp
+  Generating Code...
+  Compiling...
+  DOMNodeListImpl.cpp
+  DOMNodeVector.cpp
+  DOMNormalizer.cpp
+  DOMNotationImpl.cpp
+  DOMParentNode.cpp
+  DOMProcessingInstructionImpl.cpp
+  DOMRangeImpl.cpp
+  DOMStringListImpl.cpp
+  DOMStringPool.cpp
+  DOMTextImpl.cpp
+  DOMTreeWalkerImpl.cpp
+  DOMTypeInfoImpl.cpp
+  DOMLSSerializerImpl.cpp
+  DOMLSInputImpl.cpp
+  DOMLSOutputImpl.cpp
+  DOMXPathExpressionImpl.cpp
+  DOMXPathNSResolverImpl.cpp
+  DOMXPathResultImpl.cpp
+  XSDElementNSImpl.cpp
+  BinOutputStream.cpp
+  Generating Code...
+  Compiling...
+  LocalFileFormatTarget.cpp
+  LocalFileInputSource.cpp
+  MemBufFormatTarget.cpp
+  MemBufInputSource.cpp
+  PSVIAttribute.cpp
+  PSVIAttributeList.cpp
+  PSVIElement.cpp
+  PSVIItem.cpp
+  XSAnnotation.cpp
+  XSAttributeDeclaration.cpp
+  XSAttributeGroupDefinition.cpp
+  XSAttributeUse.cpp
+  XSComplexTypeDefinition.cpp
+  XSElementDeclaration.cpp
+  XSFacet.cpp
+  XSIDCDefinition.cpp
+  XSModel.cpp
+  XSModelGroup.cpp
+  XSModelGroupDefinition.cpp
+  XSMultiValueFacet.cpp
+  Generating Code...
+  Compiling...
+  XSNamespaceItem.cpp
+  XSNotationDeclaration.cpp
+  XSObject.cpp
+  XSParticle.cpp
+  XSSimpleTypeDefinition.cpp
+  XSTypeDefinition.cpp
+  XSValue.cpp
+  XSWildcard.cpp
+  StdInInputSource.cpp
+  StdOutFormatTarget.cpp
+  URLInputSource.cpp
+  Wrapper4DOMLSInput.cpp
+  Wrapper4InputSource.cpp
+  XMLAttDef.cpp
+  XMLAttDefList.cpp
+  XMLAttr.cpp
+  XMLBuffer.cpp
+  XMLBufferMgr.cpp
+  XMLContentModel.cpp
+  XMLDTDDescription.cpp
+  Generating Code...
+  Compiling...
+  XMLElementDecl.cpp
+  XMLEntityDecl.cpp
+  XMLFormatter.cpp
+  XMLGrammarDescription.cpp
+  XMLGrammarPoolImpl.cpp
+  XMLNotationDecl.cpp
+  XMLRecognizer.cpp
+  XMLRefInfo.cpp
+  XMLSchemaDescription.cpp
+  XMLValidator.cpp
+  BinFileOutputStream.cpp
+  BinMemOutputStream.cpp
+  DGXMLScanner.cpp
+  ElemStack.cpp
+  IGXMLScanner.cpp
+  IGXMLScanner2.cpp
+  MemoryManagerImpl.cpp
+  ReaderMgr.cpp
+  SGXMLScanner.cpp
+  ValidationContextImpl.cpp
+  Generating Code...
+  Compiling...
+  VecAttributesImpl.cpp
+  VecAttrListImpl.cpp
+  WFXMLScanner.cpp
+  XMLReader.cpp
+  XMLScanner.cpp
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\internal\XMLScanner.cpp(1277): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdlib.h(1191): note: see declaration of 'getenv'
+  XMLScannerResolver.cpp
+  XProtoType.cpp
+  XSAXMLScanner.cpp
+  XSerializeEngine.cpp
+  XSObjectFactory.cpp
+  XTemplateSerializer.cpp
+  AbstractDOMParser.cpp
+  DOMLSParserImpl.cpp
+  SAX2XMLFilterImpl.cpp
+  SAX2XMLReaderImpl.cpp
+  SAXParser.cpp
+  XercesDOMParser.cpp
+  Dummy.cpp
+  InputSource.cpp
+  SAXException.cpp
+  Generating Code...
+  Compiling...
+  SAXParseException.cpp
+  sax2Dummy.cpp
+  AllContentModel.cpp
+  CMAny.cpp
+  CMBinaryOp.cpp
+  CMUnaryOp.cpp
+  ContentLeafNameTypeVector.cpp
+  ContentSpecNode.cpp
+  DFAContentModel.cpp
+  Grammar.cpp
+  GrammarResolver.cpp
+  MixedContentModel.cpp
+  SimpleContentModel.cpp
+  AbstractNumericFacetValidator.cpp
+  AbstractNumericValidator.cpp
+  AbstractStringValidator.cpp
+  AnySimpleTypeDatatypeValidator.cpp
+  AnyURIDatatypeValidator.cpp
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\validators\datatype\AnyURIDatatypeValidator.cpp(141): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\validators\datatype\AnyURIDatatypeValidator.cpp(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1774): note: see declaration of 'sprintf'
+  Base64BinaryDatatypeValidator.cpp
+  BooleanDatatypeValidator.cpp
+  Generating Code...
+  Compiling...
+  DatatypeValidator.cpp
+  DatatypeValidatorFactory.cpp
+  DateDatatypeValidator.cpp
+  DateTimeDatatypeValidator.cpp
+  DateTimeValidator.cpp
+  DayDatatypeValidator.cpp
+  DecimalDatatypeValidator.cpp
+  DoubleDatatypeValidator.cpp
+  DurationDatatypeValidator.cpp
+  ENTITYDatatypeValidator.cpp
+  FloatDatatypeValidator.cpp
+  HexBinaryDatatypeValidator.cpp
+  IDDatatypeValidator.cpp
+  IDREFDatatypeValidator.cpp
+  ListDatatypeValidator.cpp
+  MonthDatatypeValidator.cpp
+  MonthDayDatatypeValidator.cpp
+  NameDatatypeValidator.cpp
+  NCNameDatatypeValidator.cpp
+  NOTATIONDatatypeValidator.cpp
+  Generating Code...
+  Compiling...
+  QNameDatatypeValidator.cpp
+  StringDatatypeValidator.cpp
+  TimeDatatypeValidator.cpp
+  UnionDatatypeValidator.cpp
+  XMLCanRepGroup.cpp
+  YearDatatypeValidator.cpp
+  YearMonthDatatypeValidator.cpp
+  DTDAttDef.cpp
+  DTDAttDefList.cpp
+  DTDElementDecl.cpp
+  DTDEntityDecl.cpp
+  DTDGrammar.cpp
+  DTDScanner.cpp
+  DTDValidator.cpp
+  XMLDTDDescriptionImpl.cpp
+  ComplexTypeInfo.cpp
+  GeneralAttributeCheck.cpp
+  FieldActivator.cpp
+  FieldValueMap.cpp
+  IC_Field.cpp
+  Generating Code...
+  Compiling...
+  IC_Key.cpp
+  IC_KeyRef.cpp
+  IC_Selector.cpp
+  IC_Unique.cpp
+  IdentityConstraint.cpp
+  IdentityConstraintHandler.cpp
+  ValueStore.cpp
+  ValueStoreCache.cpp
+  XercesXPath.cpp
+  XPathMatcher.cpp
+  XPathMatcherStack.cpp
+  XPathSymbols.cpp
+  NamespaceScope.cpp
+  SchemaAttDef.cpp
+  SchemaAttDefList.cpp
+  SchemaElementDecl.cpp
+  SchemaGrammar.cpp
+  SchemaInfo.cpp
+  SchemaSymbols.cpp
+  SchemaValidator.cpp
+  Generating Code...
+  Compiling...
+  SubstitutionGroupComparator.cpp
+  TraverseSchema.cpp
+  XercesAttGroupInfo.cpp
+  XercesElementWildcard.cpp
+  XercesGroupInfo.cpp
+  XMLSchemaDescriptionImpl.cpp
+  XSDDOMParser.cpp
+  XSDErrorReporter.cpp
+  XSDLocator.cpp
+  XUtil.cpp
+  XIncludeDOMDocumentProcessor.cpp
+  XIncludeLocation.cpp
+  XIncludeUtils.cpp
+  WinSockNetAccessor.cpp
+  BinHTTPURLInputStream.cpp
+  BinHTTPInputStreamCommon.cpp
+  Win32TransService.cpp
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\Transcoders\Win32\Win32TransService.cpp(138): warning C4996: '_wcsupr': This function or variable may be unsafe. Consider using _wcsupr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(429): note: see declaration of '_wcsupr'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\Transcoders\Win32\Win32TransService.cpp(153): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(393): note: see declaration of '_wcslwr'
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\Transcoders\Win32\Win32TransService.cpp(322): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\sysinfoapi.h(378): note: see declaration of 'GetVersionExA'
+  InMemMsgLoader.cpp
+  StdMutexMgr.cpp
+  WindowsFileMgr.cpp
+C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\FileManagers\WindowsFileMgr.cpp(46): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\sysinfoapi.h(378): note: see declaration of 'GetVersionExA'
+  Generating Code...
+     Creating library C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/src/Release/xerces-c_3.lib and object C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/src/Release/xerces-c_3.exp
+  xerces-c.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\src\Release\xerces-c_3_2.dll

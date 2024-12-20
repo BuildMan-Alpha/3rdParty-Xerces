@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/samples/CMakeLists.txt
+  SAX2FilterHandlers.cpp
+  SAX2Print.cpp
+  SAX2PrintHandlers.cpp
+  Generating Code...
+  SAX2Print.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS17\samples\Release\SAX2Print.exe

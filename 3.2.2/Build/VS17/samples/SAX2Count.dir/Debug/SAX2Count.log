@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/samples/CMakeLists.txt
+  SAX2Count.cpp
+C:\dev\3rdParty\Xerces\3.2.2\samples\src\SAX2Count\SAX2Count.cpp(163,14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  SAX2CountHandlers.cpp
+  Generating Code...
+  SAX2Count.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS17\samples\Debug\SAX2Count.exe

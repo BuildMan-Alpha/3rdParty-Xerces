@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/samples/CMakeLists.txt
+  SAXPrint.cpp
+  SAXPrintHandlers.cpp
+  Generating Code...
+  SAXPrint.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS17\samples\Debug\SAXPrint.exe

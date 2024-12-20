@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/dev/3rdParty/CMake/3.15.4/x86/share/cmake-3.15/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/dev/3rdParty/CMake/3.15.4/x86/share/cmake-3.15/Modules/CMakePackageConfigHelpers.cmake
+C:/dev/3rdParty/CMake/3.15.4/x86/share/cmake-3.15/Modules/WriteBasicConfigVersionFile.cmake
+C:/dev/3rdParty/Xerces/3.2.2/src/CMakeLists.txt
+C:/dev/3rdParty/Xerces/3.2.2/src/XercesCConfig.cmake.in
+C:/dev/3rdParty/Xerces/3.2.2/src/xercesc/util/version.rc.cmake.in

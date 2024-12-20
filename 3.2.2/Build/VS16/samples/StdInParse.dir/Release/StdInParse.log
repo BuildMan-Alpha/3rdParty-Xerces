@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/samples/CMakeLists.txt
+  StdInParse.cpp
+  StdInParseHandlers.cpp
+  Generating Code...
+  StdInParse.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\Release\StdInParse.exe

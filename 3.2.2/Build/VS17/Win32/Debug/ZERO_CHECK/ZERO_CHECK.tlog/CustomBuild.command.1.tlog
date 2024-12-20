@@ -1,0 +1,10 @@
+^C:\DEV\3RDPARTY\XERCES\3.2.2\BUILD\VS17\CMAKEFILES\4A3C66E3A1CF8DD8C70CA9CDE5195523\GENERATE.STAMP.RULE
+setlocal
+C:\dev\3rdParty\CMake\3.21.4\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS17 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS17/xerces-c.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

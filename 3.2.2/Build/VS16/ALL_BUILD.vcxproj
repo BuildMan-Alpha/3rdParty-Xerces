@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D4FD3099-9C7C-3738-9E7C-7E2387D68E94}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\Xerces\3.2.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\dev\3rdParty\CMake\3.15.4\x86\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS16 --check-stamp-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompilerABI.c;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystem.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCXXCompilerFlag.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.c.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.cxx.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckTypeSize.c.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindThreads.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\GNUInstallDirs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeSystem.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_CHAR16_T.cpp;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED__INT64.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;C:\dev\3rdParty\Xerces\3.2.2\cmake\FindICU.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesBool.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesConst.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesDLL.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesFileMgrSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesFunctions.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesICU.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIconvConst.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIncludes.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesInline.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIntTypes.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesLFS.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesLString.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMFC.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMsgLoaderSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMutexMgrSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesNamespaces.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesNetAccessorSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesOperatorDelete.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesPathDelimiters.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesPathMax.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesSSE2.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesStdLibs.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesStdNamespace.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesTranscoderSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesVolatile.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesWChar.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesWarnings.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesXMLCh.cmake;C:\dev\3rdParty\Xerces\3.2.2\config.h.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\entities.ent.in;C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XercesVersion.hpp.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\Xerces_autoconf_config.hpp.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\xerces-c.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\dev\3rdParty\CMake\3.15.4\x86\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS16 --check-stamp-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompilerABI.c;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystem.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCXXCompilerFlag.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.c.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.cxx.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckTypeSize.c.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindThreads.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\GNUInstallDirs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeSystem.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_CHAR16_T.cpp;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED__INT64.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;C:\dev\3rdParty\Xerces\3.2.2\cmake\FindICU.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesBool.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesConst.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesDLL.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesFileMgrSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesFunctions.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesICU.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIconvConst.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIncludes.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesInline.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIntTypes.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesLFS.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesLString.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMFC.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMsgLoaderSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMutexMgrSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesNamespaces.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesNetAccessorSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesOperatorDelete.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesPathDelimiters.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesPathMax.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesSSE2.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesStdLibs.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesStdNamespace.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesTranscoderSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesVolatile.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesWChar.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesWarnings.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesXMLCh.cmake;C:\dev\3rdParty\Xerces\3.2.2\config.h.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\entities.ent.in;C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XercesVersion.hpp.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\Xerces_autoconf_config.hpp.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\xerces-c.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\dev\3rdParty\CMake\3.15.4\x86\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS16 --check-stamp-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompilerABI.c;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystem.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCXXCompilerFlag.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.c.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.cxx.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckTypeSize.c.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindThreads.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\GNUInstallDirs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeSystem.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_CHAR16_T.cpp;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED__INT64.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;C:\dev\3rdParty\Xerces\3.2.2\cmake\FindICU.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesBool.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesConst.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesDLL.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesFileMgrSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesFunctions.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesICU.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIconvConst.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIncludes.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesInline.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIntTypes.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesLFS.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesLString.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMFC.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMsgLoaderSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMutexMgrSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesNamespaces.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesNetAccessorSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesOperatorDelete.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesPathDelimiters.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesPathMax.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesSSE2.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesStdLibs.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesStdNamespace.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesTranscoderSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesVolatile.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesWChar.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesWarnings.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesXMLCh.cmake;C:\dev\3rdParty\Xerces\3.2.2\config.h.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\entities.ent.in;C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XercesVersion.hpp.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\Xerces_autoconf_config.hpp.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\xerces-c.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\dev\3rdParty\CMake\3.15.4\x86\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS16 --check-stamp-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS16/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompilerABI.c;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCompilerIdDetection.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCXXCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompileFeatures.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompilerABI.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineCompilerId.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineRCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeDetermineSystem.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeFindBinUtils.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeParseImplicitIncludeInfo.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeParseImplicitLinkInfo.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeRCCompiler.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystem.cmake.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCXXCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestCompilerCommon.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeTestRCCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCXXCompilerFlag.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckCXXSourceCompiles.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.c.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFile.cxx.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckIncludeFileCXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckTypeSize.c.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckTypeSize.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ADSP-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ARMCC-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\ARMClang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\AppleClang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Borland-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Cray-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GHS-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GNU-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\HP-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IAR-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Intel-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\MSVC-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\PGI-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\PathScale-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SCO-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\TI-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\Watcom-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XL-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XLClang-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\zOS-C-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CompilerId\VS-10.vcxproj.in;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindThreads.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\GNUInstallDirs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Internal\FeatureTesting.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-Determine-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\SelectLibraryConfigurations.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeCCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeCXXCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeRCCompiler.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\3.15.4\CMakeSystem.cmake;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_CHAR16_T.cpp;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_INT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_SSIZE_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED__INT64.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c;C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c;C:\dev\3rdParty\Xerces\3.2.2\cmake\FindICU.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesBool.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesConst.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesDLL.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesFileMgrSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesFunctions.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesICU.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIconvConst.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIncludes.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesInline.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesIntTypes.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesLFS.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesLString.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMFC.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMsgLoaderSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesMutexMgrSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesNamespaces.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesNetAccessorSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesOperatorDelete.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesPathDelimiters.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesPathMax.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesSSE2.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesStdLibs.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesStdNamespace.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesTranscoderSelection.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesVolatile.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesWChar.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesWarnings.cmake;C:\dev\3rdParty\Xerces\3.2.2\cmake\XercesXMLCh.cmake;C:\dev\3rdParty\Xerces\3.2.2\config.h.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\entities.ent.in;C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\XercesVersion.hpp.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\src\xercesc\util\Xerces_autoconf_config.hpp.cmake.in;C:\dev\3rdParty\Xerces\3.2.2\xerces-c.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\ZERO_CHECK.vcxproj">
+      <Project>{1FE90A3C-AA95-3F52-A60C-832A32CDFED0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\Char16Test.vcxproj">
+      <Project>{316CE813-4A18-3A08-A60A-589B98AB3E22}</Project>
+      <Name>Char16Test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\CreateDOMDocument.vcxproj">
+      <Project>{4B5685D6-0045-3AA5-BBD8-539F25E16BDB}</Project>
+      <Name>CreateDOMDocument</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\DOMCount.vcxproj">
+      <Project>{ED748B98-B0A3-3C2A-AC61-10F104EB155E}</Project>
+      <Name>DOMCount</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\DOMMemTest.vcxproj">
+      <Project>{B922F7B6-5F35-3CC3-878A-599637A23E67}</Project>
+      <Name>DOMMemTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\DOMPrint.vcxproj">
+      <Project>{187A6810-F6CA-357A-B68D-A45BCB296924}</Project>
+      <Name>DOMPrint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\DOMTest.vcxproj">
+      <Project>{00E05EBF-0BD9-3D3B-BA40-1BB584B50C47}</Project>
+      <Name>DOMTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\DOMTraversalTest.vcxproj">
+      <Project>{23AD32EE-CF5E-3EAA-9E7C-1606E0DBB6F9}</Project>
+      <Name>DOMTraversalTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\DOMTypeInfoTest.vcxproj">
+      <Project>{6D4CDA38-C68F-31B8-A454-B25997AF9BA2}</Project>
+      <Name>DOMTypeInfoTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\EncodingTest.vcxproj">
+      <Project>{41D6AC0F-F7F8-3597-88A2-EA963E1091E5}</Project>
+      <Name>EncodingTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\EnumVal.vcxproj">
+      <Project>{4495F937-0DD8-35C2-94BD-7CA81B16EDAD}</Project>
+      <Name>EnumVal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\InitTermTest.vcxproj">
+      <Project>{E06A683D-10D6-3532-852C-4B390D1F6222}</Project>
+      <Name>InitTermTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\MemHandlerTest.vcxproj">
+      <Project>{5A143AAB-9122-39A8-99B6-6DD917DC8D76}</Project>
+      <Name>MemHandlerTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\MemParse.vcxproj">
+      <Project>{42FB2C73-56FC-3CB4-8244-E8A9CB7F41D1}</Project>
+      <Name>MemParse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\NetAccessorTest.vcxproj">
+      <Project>{E7C1B420-3614-395A-A33B-7DD219CAAB46}</Project>
+      <Name>NetAccessorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\Normalizer.vcxproj">
+      <Project>{22A539DD-252D-3D47-B5C2-2FEE09869598}</Project>
+      <Name>Normalizer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\PParse.vcxproj">
+      <Project>{9BCA686B-EE92-34E8-BDD7-00FD73651C1C}</Project>
+      <Name>PParse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\PSVIWriter.vcxproj">
+      <Project>{130FB6C0-020A-3458-AAB8-05DF437E6A33}</Project>
+      <Name>PSVIWriter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\RangeTest.vcxproj">
+      <Project>{A3AA0541-336A-333C-8BD8-35947B3BCF22}</Project>
+      <Name>RangeTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\Redirect.vcxproj">
+      <Project>{D41C9A3D-644A-318D-9F4E-496E4E8BD8C0}</Project>
+      <Name>Redirect</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\SAX2Count.vcxproj">
+      <Project>{6E04E2F7-080D-3450-82D2-52C512660C58}</Project>
+      <Name>SAX2Count</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\SAX2Print.vcxproj">
+      <Project>{1721CCC2-0FAC-3CF3-87D4-7BADBE53E44F}</Project>
+      <Name>SAX2Print</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\SAXCount.vcxproj">
+      <Project>{87EB9D24-0F2A-38F1-B23D-BB6A80D94298}</Project>
+      <Name>SAXCount</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\SAXPrint.vcxproj">
+      <Project>{63A2660C-885F-358F-809C-618B78FF89F3}</Project>
+      <Name>SAXPrint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\SCMPrint.vcxproj">
+      <Project>{04A5BB03-A374-31EF-94E9-840D5388EBF1}</Project>
+      <Name>SCMPrint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\SEnumVal.vcxproj">
+      <Project>{A17B4E02-5DC8-36A4-A1CB-CC5637FF040F}</Project>
+      <Name>SEnumVal</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\StdInParse.vcxproj">
+      <Project>{5B41F92B-5FFE-3BC0-95A4-5596102F7D80}</Project>
+      <Name>StdInParse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\ThreadTest.vcxproj">
+      <Project>{A037D233-DF3A-392E-854F-62196DF148E1}</Project>
+      <Name>ThreadTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\XInclude.vcxproj">
+      <Project>{95A22AA8-AEFF-376A-90D4-9ED0E7F0A77F}</Project>
+      <Name>XInclude</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\XSTSHarness.vcxproj">
+      <Project>{CC68F30C-5845-3FB9-8BC7-9969A82FE4B8}</Project>
+      <Name>XSTSHarness</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\XSValueTest.vcxproj">
+      <Project>{8D8A244F-1B52-33F1-9C0A-1ADA69AA8727}</Project>
+      <Name>XSValueTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\tests\XSerializerTest.vcxproj">
+      <Project>{C64C5E97-8748-3A77-9D4E-4BFD76A50C1C}</Project>
+      <Name>XSerializerTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\src\xerces-c.vcxproj">
+      <Project>{CE6C1F61-D840-31F3-B8C8-6BB0352150D7}</Project>
+      <Name>xerces-c</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

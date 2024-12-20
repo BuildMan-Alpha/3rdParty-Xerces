@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/samples/CMakeLists.txt
+  DOMCount.cpp
+C:\dev\3rdParty\Xerces\3.2.2\samples\src\DOMCount\DOMCount.cpp(226,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  DOMCount.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS17\samples\Debug\DOMCount.exe

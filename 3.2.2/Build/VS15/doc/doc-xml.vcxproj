@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{054E2416-3367-30EC-BC53-9F71266AE304}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>doc-xml</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\Xerces\3.2.2\doc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\dev\3rdParty\CMake\3.15.4\x86\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS15 --check-stamp-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeFindJavaCommon.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindJava.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\entities.ent.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\dev\3rdParty\CMake\3.15.4\x86\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS15 --check-stamp-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeFindJavaCommon.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindJava.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\entities.ent.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\dev\3rdParty\CMake\3.15.4\x86\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS15 --check-stamp-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeFindJavaCommon.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindJava.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\entities.ent.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/doc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\dev\3rdParty\CMake\3.15.4\x86\bin\cmake.exe -SC:/dev/3rdParty/Xerces/3.2.2 -BC:/dev/3rdParty/Xerces/3.2.2/Build/VS15 --check-stamp-file C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/doc/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeFindJavaCommon.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindJava.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\entities.ent.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\doc\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\apidocs.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\applications.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\bug-report.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\build.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\charter.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\createdoc.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\domcount.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\domprint.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\download.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\enumval.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\faq-build.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\faq-contributing.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\faq-distrib.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\faq-other.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\faq-parse.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\feedback.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\install.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\mailing-lists.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\memparse.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\migration.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\migration_archive.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\pparse.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\program-dom.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\program-others.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\program-sax.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\program-sax2.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\program.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\psviwriter.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\readme.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\redirect.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\releases.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\releases_archive.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\releases_plan.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\samples.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\sax2count.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\sax2print.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\saxcount.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\saxprint.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\schema.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\scmprint.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\secadv.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\senumval.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\source-repository.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\stdinparse.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\xerces-c_book.xml" />
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\xinclude.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\ZERO_CHECK.vcxproj">
+      <Project>{88B6F43B-4076-3319-8BAA-9D39459F5A3F}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

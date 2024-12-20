@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/tests/CMakeLists.txt
+  ThreadTest.cpp
+C:\dev\3rdParty\Xerces\3.2.2\tests\src\ThreadTest\ThreadTest.cpp(1021,21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  ThreadTest.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS17\tests\Release\ThreadTest.exe

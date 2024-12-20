@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/tests/CMakeLists.txt
+  NetAccessorTest.cpp
+C:\dev\3rdParty\Xerces\3.2.2\tests\src\NetAccessorTest\NetAccessorTest.cpp(54): warning C4305: 'initializing': truncation from 'double' to 'float'
+  NetAccessorTest.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\tests\Debug\NetAccessorTest.exe

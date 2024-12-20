@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\Xerces\3.2.2\doc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\blocks.ent">
+      <Filter>style\dtd</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\characters.ent">
+      <Filter>style\dtd</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\links.ent">
+      <Filter>style\dtd</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\dtd\markup.ent">
+      <Filter>style\dtd</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\graphics\button-a.gif">
+      <Filter>style\graphics</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\graphics\button-b.gif">
+      <Filter>style\graphics</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\graphics\section.gif">
+      <Filter>style\graphics</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\bottom.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\button-asf-hi.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\button-asf-lo.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\button-w3c-hi.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\button-w3c-lo.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\button-xml-hi.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\button-xml-lo.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\close.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\dot.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\join.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\line.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\logo.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\note.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\right.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\separator-space.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\separator.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\resources\void.gif">
+      <Filter>style\resources</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\any2header.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\any2project.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\book2group.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\book2project.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\changes2document.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\context2footer.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\context2label.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\context2section.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\directory2project.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\document2html.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\faqs2document.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+    <None Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\stylesheets\group2document.xsl">
+      <Filter>style\stylesheets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <XML Include="C:\dev\3rdParty\Xerces\3.2.2\doc\style\loader.xml">
+      <Filter>style</Filter>
+    </XML>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="style">
+      <UniqueIdentifier>{B8F9DB80-A718-3137-8272-7BA3F9A30AEB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style\dtd">
+      <UniqueIdentifier>{8B171EE3-9F64-34D9-9ED6-F76D43EFF4B7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style\graphics">
+      <UniqueIdentifier>{FA3421FE-96E7-3644-B662-DA6FA608DBEE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style\resources">
+      <UniqueIdentifier>{2B527064-8192-34B4-B19B-1276E9E03745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="style\stylesheets">
+      <UniqueIdentifier>{B9EF011E-A91C-316E-8351-C7FA83E92254}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

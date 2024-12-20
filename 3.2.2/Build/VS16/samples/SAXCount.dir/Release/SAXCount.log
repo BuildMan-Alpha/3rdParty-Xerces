@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/samples/CMakeLists.txt
+  SAXCount.cpp
+C:\dev\3rdParty\Xerces\3.2.2\samples\src\SAXCount\SAXCount.cpp(143,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\string.h(133): message : see declaration of 'strcpy'
+  SAXCountHandlers.cpp
+  Generating Code...
+  SAXCount.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS16\samples\Release\SAXCount.exe

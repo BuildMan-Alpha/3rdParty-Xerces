@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+C:/dev/3rdParty/CMake/3.21.4/share/cmake-3.21/Modules/CMakeFindJavaCommon.cmake
+C:/dev/3rdParty/CMake/3.21.4/share/cmake-3.21/Modules/FindJava.cmake
+C:/dev/3rdParty/CMake/3.21.4/share/cmake-3.21/Modules/FindPackageHandleStandardArgs.cmake
+C:/dev/3rdParty/CMake/3.21.4/share/cmake-3.21/Modules/FindPackageMessage.cmake
+C:/dev/3rdParty/Xerces/3.2.2/doc/CMakeLists.txt
+C:/dev/3rdParty/Xerces/3.2.2/doc/style/dtd/entities.ent.in

@@ -1,0 +1,1619 @@
+The system is: Windows - 10.0.17763 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/20/2020 6:08:31 PM.
+Project "C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\3.15.4\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\3.15.4\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\3.15.4\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/3.15.4/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 3/20/2020 6:08:32 PM.
+Project "C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\3.15.4\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\3.15.4\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\Hostx86\x86\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\3.15.4\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.83
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/3.15.4/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_b9aba.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9aba.dir\Debug\\" /Fd"cmTC_b9aba.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\testCCompiler.c
+  testCCompiler.c
+  
+  cmTC_b9aba.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_b9aba.exe
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_17f53.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17f53.dir\Debug\\" /Fd"cmTC_17f53.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCCompilerABI.c"
+  CMakeCCompilerABI.c
+  
+  cmTC_17f53.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_17f53.exe
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_f62ce.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_f62ce.dir\Debug\\" /Fd"cmTC_f62ce.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  testCXXCompiler.cxx
+  
+  cmTC_f62ce.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_f62ce.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_76d7c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_76d7c.dir\Debug\\" /Fd"cmTC_76d7c.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CMakeCXXCompilerABI.cpp"
+  CMakeCXXCompilerABI.cpp
+  
+  cmTC_76d7c.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_76d7c.exe
+
+
+
+Performing C++ SOURCE FILE Test CXX_FLAG_W3 succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_7affd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CXX_FLAG_W3 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_7affd.dir\Debug\\" /Fd"cmTC_7affd.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_7affd.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_7affd.exe
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_58a94.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_58a94.dir\Debug\\" /Fd"cmTC_58a94.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_58a94.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_58a94.exe
+
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_77054.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_77054.dir\Debug\\" /Fd"cmTC_77054.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_77054.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_77054.exe
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_1a7bb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_1a7bb.dir\Debug\\" /Fd"cmTC_1a7bb.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_1a7bb.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_1a7bb.exe
+
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_8564d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_8564d.dir\Debug\\" /Fd"cmTC_8564d.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_8564d.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_8564d.exe
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_834f9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_834f9.dir\Debug\\" /Fd"cmTC_834f9.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_834f9.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_834f9.exe
+
+
+
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_d6f71.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_d6f71.dir\Debug\\" /Fd"cmTC_d6f71.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_d6f71.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_d6f71.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_af0f0.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_af0f0.dir\Debug\\" /Fd"cmTC_af0f0.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_af0f0.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_af0f0.exe
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_48343.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_48343.dir\Debug\\" /Fd"cmTC_48343.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_48343.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_48343.exe
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ebd69.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_ebd69.dir\Debug\\" /Fd"cmTC_ebd69.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_ebd69.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ebd69.exe
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_d2323.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_d2323.dir\Debug\\" /Fd"cmTC_d2323.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_d2323.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_d2323.exe
+
+
+
+Determining if the include file sys/timeb.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_43d69.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_43d69.dir\Debug\\" /Fd"cmTC_43d69.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_43d69.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_43d69.exe
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_684ac.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_684ac.dir\Debug\\" /Fd"cmTC_684ac.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_684ac.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_684ac.exe
+
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_5bb41.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_5bb41.dir\Debug\\" /Fd"cmTC_5bb41.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_5bb41.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_5bb41.exe
+
+
+
+Determining if the include file wctype.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_f6868.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_f6868.dir\Debug\\" /Fd"cmTC_f6868.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_f6868.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_f6868.exe
+
+
+
+Determining if the function getcwd exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_1f661.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getcwd /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f661.dir\Debug\\" /Fd"cmTC_1f661.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_1f661.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_1f661.exe
+
+
+
+Determining if the function ftime exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_86585.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=ftime /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86585.dir\Debug\\" /Fd"cmTC_86585.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_86585.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_86585.exe
+
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_8dfb7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memmove /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8dfb7.dir\Debug\\" /Fd"cmTC_8dfb7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_8dfb7.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_8dfb7.exe
+
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_94e7d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=memset /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94e7d.dir\Debug\\" /Fd"cmTC_94e7d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_94e7d.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_94e7d.exe
+
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_c1c82.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=setlocale /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1c82.dir\Debug\\" /Fd"cmTC_c1c82.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_c1c82.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_c1c82.exe
+
+
+
+Determining if the function localeconv exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_d4fbd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=localeconv /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4fbd.dir\Debug\\" /Fd"cmTC_d4fbd.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_d4fbd.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_d4fbd.exe
+
+
+
+Determining if the function stricmp exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_2d97e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=stricmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d97e.dir\Debug\\" /Fd"cmTC_2d97e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_2d97e.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_2d97e.exe
+
+
+
+Determining if the function strnicmp exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_cf06f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strnicmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cf06f.dir\Debug\\" /Fd"cmTC_cf06f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_cf06f.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_cf06f.exe
+
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_759bc.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strchr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_759bc.dir\Debug\\" /Fd"cmTC_759bc.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_759bc.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_759bc.exe
+
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_d3c7f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strdup /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d3c7f.dir\Debug\\" /Fd"cmTC_d3c7f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_d3c7f.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_d3c7f.exe
+
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_c52b7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strrchr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c52b7.dir\Debug\\" /Fd"cmTC_c52b7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_c52b7.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_c52b7.exe
+
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_b5470.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strstr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b5470.dir\Debug\\" /Fd"cmTC_b5470.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_b5470.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_b5470.exe
+
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_28e6a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtol /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28e6a.dir\Debug\\" /Fd"cmTC_28e6a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_28e6a.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_28e6a.exe
+
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ccb17.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strtoul /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccb17.dir\Debug\\" /Fd"cmTC_ccb17.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_ccb17.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ccb17.exe
+
+
+
+Determining if the function towupper exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_96d0e.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=towupper /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_96d0e.dir\Debug\\" /Fd"cmTC_96d0e.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_96d0e.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_96d0e.exe
+
+
+
+Determining if the function towlower exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ee0e2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=towlower /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee0e2.dir\Debug\\" /Fd"cmTC_ee0e2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_ee0e2.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ee0e2.exe
+
+
+
+Determining if the function mblen exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_55ca9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mblen /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_55ca9.dir\Debug\\" /Fd"cmTC_55ca9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_55ca9.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_55ca9.exe
+
+
+
+Determining if the function wcsupr exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_948d9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsupr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_948d9.dir\Debug\\" /Fd"cmTC_948d9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_948d9.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_948d9.exe
+
+
+
+Determining if the function wcslwr exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_8f720.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcslwr /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f720.dir\Debug\\" /Fd"cmTC_8f720.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_8f720.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_8f720.exe
+
+
+
+Determining if the function wcsnicmp exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_db695.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsnicmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_db695.dir\Debug\\" /Fd"cmTC_db695.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_db695.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_db695.exe
+
+
+
+Determining if the function wcsicmp exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ccd08.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcsicmp /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ccd08.dir\Debug\\" /Fd"cmTC_ccd08.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_ccd08.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ccd08.exe
+
+
+
+Determining if the include file cstdint exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ee908.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_ee908.dir\Debug\\" /Fd"cmTC_ee908.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_ee908.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ee908.exe
+
+
+
+Performing C++ SOURCE FILE Test CSTDINT_FUNCTIONAL succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_7f938.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CSTDINT_FUNCTIONAL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_7f938.dir\Debug\\" /Fd"cmTC_7f938.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_7f938.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_7f938.exe
+
+
+Source file was:
+
+#include <cstdint>
+
+int main() {
+  uint32_t v1 = 342;
+  int64_t v2 = -23;
+  return 0;
+}
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_46548.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_46548.dir\Debug\\" /Fd"cmTC_46548.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_46548.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_46548.exe
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_4da19.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_4da19.dir\Debug\\" /Fd"cmTC_4da19.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_4da19.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_4da19.exe
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_4a9b8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4a9b8.dir\Debug\\" /Fd"cmTC_4a9b8.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_OFF_T.c
+  SIZEOF_OFF_T.c
+  
+  cmTC_4a9b8.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_4a9b8.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_a65fb.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a65fb.dir\Debug\\" /Fd"cmTC_a65fb.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_SIZE_T.c
+  SIZEOF_SIZE_T.c
+  
+  cmTC_a65fb.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_a65fb.exe
+
+
+
+Determining size of wchar_t passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_a43a3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a43a3.dir\Debug\\" /Fd"cmTC_a43a3.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_WCHAR_T.c
+  SIZEOF_WCHAR_T.c
+  
+  cmTC_a43a3.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_a43a3.exe
+
+
+
+Determining size of signed short passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_f0880.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0880.dir\Debug\\" /Fd"cmTC_f0880.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_SHORT.c
+  SIZEOF_SHORT.c
+  
+  cmTC_f0880.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_f0880.exe
+
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_d5cff.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5cff.dir\Debug\\" /Fd"cmTC_d5cff.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_SHORT.c
+  SIZEOF_UNSIGNED_SHORT.c
+  
+  cmTC_d5cff.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_d5cff.exe
+
+
+
+Determining size of signed int passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_5e959.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5e959.dir\Debug\\" /Fd"cmTC_5e959.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_INT.c
+  SIZEOF_INT.c
+  
+  cmTC_5e959.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_5e959.exe
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_91e3d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91e3d.dir\Debug\\" /Fd"cmTC_91e3d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_INT.c
+  SIZEOF_UNSIGNED_INT.c
+  
+  cmTC_91e3d.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_91e3d.exe
+
+
+
+Determining size of signed long passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_7e067.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e067.dir\Debug\\" /Fd"cmTC_7e067.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_LONG.c
+  SIZEOF_LONG.c
+  
+  cmTC_7e067.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_7e067.exe
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_5afb9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5afb9.dir\Debug\\" /Fd"cmTC_5afb9.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG.c
+  SIZEOF_UNSIGNED_LONG.c
+  
+  cmTC_5afb9.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_5afb9.exe
+
+
+
+Determining size of signed long long passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ee43f.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee43f.dir\Debug\\" /Fd"cmTC_ee43f.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_LONG_LONG.c
+  SIZEOF_LONG_LONG.c
+  
+  cmTC_ee43f.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ee43f.exe
+
+
+
+Determining size of unsigned long long passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_46254.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46254.dir\Debug\\" /Fd"cmTC_46254.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_LONG_LONG.c
+  SIZEOF_UNSIGNED_LONG_LONG.c
+  
+  cmTC_46254.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_46254.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ce777.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce777.dir\Debug\\" /Fd"cmTC_ce777.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF___INT64.c
+  SIZEOF___INT64.c
+  
+  cmTC_ce777.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ce777.exe
+
+
+
+Determining size of unsigned __int64 passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_31793.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_31793.dir\Debug\\" /Fd"cmTC_31793.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED__INT64.c
+  SIZEOF_UNSIGNED__INT64.c
+  
+  cmTC_31793.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_31793.exe
+
+
+
+Determining size of unsigned char * passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_9e24a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e24a.dir\Debug\\" /Fd"cmTC_9e24a.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_UNSIGNED_CHAR_P.c
+  SIZEOF_UNSIGNED_CHAR_P.c
+  
+  cmTC_9e24a.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_9e24a.exe
+
+
+
+Performing C++ SOURCE FILE Test XERCES_HAVE_STD_THREAD succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_3f0b6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D XERCES_HAVE_STD_THREAD /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_3f0b6.dir\Debug\\" /Fd"cmTC_3f0b6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_3f0b6.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_3f0b6.exe
+
+
+Source file was:
+#include <thread>
+#include <mutex>
+#include <iostream>
+
+namespace
+{
+
+  std::mutex m1;
+  std::recursive_mutex m2;
+
+  void
+  threadmain()
+  {
+    std::lock_guard<std::mutex> lock1(m1);
+    std::lock_guard<std::recursive_mutex> lock2(m2);
+    std::cout << "In thread" << std::endl;
+  }
+
+}
+
+int main() {
+  std::thread foo(threadmain);
+  foo.join();
+
+  return 0;
+}
+Determining if the include file winsock2.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_b2f41.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_b2f41.dir\Debug\\" /Fd"cmTC_b2f41.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_b2f41.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_b2f41.exe
+
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_62992.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_62992.dir\Debug\\" /Fd"cmTC_62992.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_62992.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_62992.exe
+
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_83ea6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_83ea6.dir\Debug\\" /Fd"cmTC_83ea6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_83ea6.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_83ea6.exe
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_05ad8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_05ad8.dir\Debug\\" /Fd"cmTC_05ad8.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx
+  CheckIncludeFile.cxx
+  
+  cmTC_05ad8.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_05ad8.exe
+
+
+
+Determining if the function wcstombs exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_3bf08.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=wcstombs /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3bf08.dir\Debug\\" /Fd"cmTC_3bf08.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_3bf08.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_3bf08.exe
+
+
+
+Determining if the function mbstowcs exists passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_f1ce2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=mbstowcs /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1ce2.dir\Debug\\" /Fd"cmTC_f1ce2.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\CMake\3.15.4\x86\share\cmake-3.15\Modules\CheckFunctionExists.c"
+  CheckFunctionExists.c
+  
+  cmTC_f1ce2.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_f1ce2.exe
+
+
+
+Performing C++ SOURCE FILE Test HAVE_STD_char16_t succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_0fbcd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_char16_t /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_0fbcd.dir\Debug\\" /Fd"cmTC_0fbcd.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_0fbcd.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_0fbcd.exe
+
+
+Source file was:
+
+int main() {
+  const char16_t *unicode = u"Test ünícodè → ©";
+  return 0;
+}
+Determining size of char16_t passed with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_4d4b7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_4d4b7.dir\Debug\\" /Fd"cmTC_4d4b7.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CheckTypeSize\SIZEOF_CHAR16_T.cpp
+  SIZEOF_CHAR16_T.cpp
+  
+  cmTC_4d4b7.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_4d4b7.exe
+
+
+
+Performing C++ SOURCE FILE Test WINDOWS_wchar succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_ab1c6.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WINDOWS_wchar /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_ab1c6.dir\Debug\\" /Fd"cmTC_ab1c6.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_ab1c6.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_ab1c6.exe
+
+
+Source file was:
+
+#include <windows.h>
+
+wchar_t file[] = L"dummy.file";
+
+int main() {
+  DeleteFileW(file);
+  return 0;
+}
+Performing C++ SOURCE FILE Test CXX_matching-delete-operator succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_b66f2.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CXX_matching-delete-operator" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_b66f2.dir\Debug\\" /Fd"cmTC_b66f2.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_b66f2.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_b66f2.exe
+
+
+Source file was:
+
+#include <stdlib.h>
+
+class XMemory {
+public:
+  void* operator new(size_t s) { return 0; }
+  void* operator new(size_t s, void* ptr) { return 0; }
+  void operator delete(void* p) {}
+  void operator delete(void* p, void* ptr) {}
+};
+
+int main() {
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_BOOL succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_adcf3.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_BOOL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_adcf3.dir\Debug\\" /Fd"cmTC_adcf3.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_adcf3.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_adcf3.exe
+
+
+Source file was:
+
+int f(int  x){return 1;}
+int f(char x){return 1;}
+int f(bool x){return 1;}
+
+int main() {
+  bool b = true;
+  return f(b);
+}
+Performing C++ SOURCE FILE Test HAVE_CONST succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_74d87.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_CONST /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_74d87.dir\Debug\\" /Fd"cmTC_74d87.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_74d87.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_74d87.exe
+
+
+Source file was:
+
+int main() {
+  const char *s = "Test";
+  return 0;
+}
+Performing C++ SOURCE FILE Test CXX_HAS_inline succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_48a8a.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CXX_HAS_inline /D inline=inline /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_48a8a.dir\Debug\\" /Fd"cmTC_48a8a.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_48a8a.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_48a8a.exe
+
+
+Source file was:
+
+        typedef int foo_t;
+        static inline foo_t static_foo() {return 0;}
+        foo_t foo(){return 0;}
+        int main(int argc, char *argv[]) {return 0;}
+Performing C++ SOURCE FILE Test HAVE_VOLATILE succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_eb6e8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_VOLATILE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_eb6e8.dir\Debug\\" /Fd"cmTC_eb6e8.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_eb6e8.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_eb6e8.exe
+
+
+Source file was:
+
+int main() {
+  volatile int i = 1;
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_LSTRING succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_4d87d.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_LSTRING /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_4d87d.dir\Debug\\" /Fd"cmTC_4d87d.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_4d87d.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_4d87d.exe
+
+
+Source file was:
+
+int main() {
+  const wchar_t* s=L"wide string";
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_040cd.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_NAMESPACES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_040cd.dir\Debug\\" /Fd"cmTC_040cd.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_040cd.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_040cd.exe
+
+
+Source file was:
+
+namespace Outer {
+  namespace Inner {
+    int i = 0;
+  }
+}
+
+int main() {
+  using namespace Outer::Inner;
+  return i;
+}
+Performing C++ SOURCE FILE Test HAVE_STD_LIBS succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_7afb9.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_LIBS /D HAVE_NAMESPACES /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_7afb9.dir\Debug\\" /Fd"cmTC_7afb9.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_7afb9.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_7afb9.exe
+
+
+Source file was:
+
+#include <map>
+#include <iomanip>
+#include <cmath>
+#ifdef HAVE_NAMESPACES
+using namespace std;
+#endif
+
+int main() {
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_STD_NAMESPACE succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_c4cd8.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_STD_NAMESPACE /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_c4cd8.dir\Debug\\" /Fd"cmTC_c4cd8.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_c4cd8.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_c4cd8.exe
+
+
+Source file was:
+
+#include <iostream>
+std::istream& is = std::cin;
+
+int main() {
+  return 0;
+}
+Performing C++ SOURCE FILE Test XERCES_HAVE_INTRIN_H succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_d2730.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D XERCES_HAVE_INTRIN_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_d2730.dir\Debug\\" /Fd"cmTC_d2730.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_d2730.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_d2730.exe
+
+
+Source file was:
+
+#include <intrin.h>
+
+int main() {
+  return 0;
+}
+Performing C++ SOURCE FILE Test XERCES_HAVE_EMMINTRIN_H succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_d9505.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D XERCES_HAVE_EMMINTRIN_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_d9505.dir\Debug\\" /Fd"cmTC_d9505.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_d9505.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_d9505.exe
+
+
+Source file was:
+
+#include <emmintrin.h>
+
+int main() {
+  return 0;
+}
+Performing C++ SOURCE FILE Test XERCES_HAVE_CPUID_INTRINSIC succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_bcf34.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D XERCES_HAVE_CPUID_INTRINSIC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_bcf34.dir\Debug\\" /Fd"cmTC_bcf34.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_bcf34.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_bcf34.exe
+
+
+Source file was:
+
+#include <intrin.h>
+
+int main() {
+  int CPUInfo[4];
+  __cpuid(CPUInfo, 1);
+  return 0;
+}
+Performing C++ SOURCE FILE Test XERCES_HAVE_SSE2_INTRINSIC succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_f92f7.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D XERCES_HAVE_SSE2_INTRINSIC /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_f92f7.dir\Debug\\" /Fd"cmTC_f92f7.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_f92f7.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_f92f7.exe
+
+
+Source file was:
+
+#include <emmintrin.h>
+
+int main() {
+  __m128i* one=(__m128i*)_mm_malloc(4, 16);
+  __m128i* two=(__m128i*)_mm_malloc(4, 16);
+  __m128i xmm1 = _mm_load_si128(one);
+  __m128i xmm2 = _mm_load_si128(two);
+  __m128i xmm3 = _mm_or_si128(xmm1, xmm2);
+  _mm_store_si128(one, xmm3);
+  _mm_free(one);
+  _mm_free(two);
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_MBRLEN succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_81eb5.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_MBRLEN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_81eb5.dir\Debug\\" /Fd"cmTC_81eb5.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+  cmTC_81eb5.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_81eb5.exe
+
+
+Source file was:
+
+#include <wchar.h>
+int main(void) {
+  mbstate_t st;
+  mbrlen( "t", 5, &st );
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_WCSRTOMBS succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_4721c.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_WCSRTOMBS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_4721c.dir\Debug\\" /Fd"cmTC_4721c.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx(7): warning C4996: 'wcsrtombs': This function or variable may be unsafe. Consider using wcsrtombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_4721c.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\wchar.h(148): note: see declaration of 'wcsrtombs'
+  cmTC_4721c.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_4721c.exe
+
+
+Source file was:
+
+#include <wchar.h>
+int main(void) {
+  mbstate_t st;
+  char buffer[2];
+  const wchar_t* src=0;
+  wcsrtombs(buffer, &src, 2, &st);
+  return 0;
+}
+Performing C++ SOURCE FILE Test HAVE_MBSRTOWCS succeeded with the following output:
+Change Dir: C:/dev/3rdParty/Xerces/3.2.2/Build/VS15/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe cmTC_15bde.vcxproj /p:Configuration=Debug /p:Platform=Win32 /p:VisualStudioVersion=15.0 /v:m && Microsoft (R) Build Engine version 15.9.21+g9802d43bc3 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27038 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_MBSRTOWCS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++14 /Fo"cmTC_15bde.dir\Debug\\" /Fd"cmTC_15bde.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:queue C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx
+  src.cxx
+  
+C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\src.cxx(7): warning C4996: 'mbsrtowcs': This function or variable may be unsafe. Consider using mbsrtowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\cmTC_15bde.vcxproj]
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\wchar.h(95): note: see declaration of 'mbsrtowcs'
+  cmTC_15bde.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\CMakeFiles\CMakeTmp\Debug\cmTC_15bde.exe
+
+
+Source file was:
+
+#include <wchar.h>
+int main(void) {
+  mbstate_t st;
+  wchar_t buffer[2];
+  const char* src=0;
+  mbsrtowcs(buffer, &src, 2, &st);
+  return 0;
+}

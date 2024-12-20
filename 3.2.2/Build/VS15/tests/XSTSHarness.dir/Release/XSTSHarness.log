@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/tests/CMakeLists.txt
+  XSTSHarness.cpp
+  XSTSHarnessHandlers.cpp
+  XMLHarnessHandlers.cpp
+  Generating Code...
+  XSTSHarness.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\tests\Release\XSTSHarness.exe

@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/tests/CMakeLists.txt
+  XSerializerHandlers.cpp
+  XSerializerTest.cpp
+C:\dev\3rdParty\Xerces\3.2.2\tests\src\XSerializerTest\XSerializerTest.cpp(204,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  XSerializerTest.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS17\tests\Debug\XSerializerTest.exe

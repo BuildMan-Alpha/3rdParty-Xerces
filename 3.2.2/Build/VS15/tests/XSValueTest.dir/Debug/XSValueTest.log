@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/dev/3rdParty/Xerces/3.2.2/tests/CMakeLists.txt
+  XSValueTest.cpp
+C:\dev\3rdParty\Xerces\3.2.2\tests\src\XSValueTest\XSValueTest.cpp(1357): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\dev\3rdParty\Xerces\3.2.2\tests\src\XSValueTest\XSValueTest.cpp(1512): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\dev\3rdParty\Xerces\3.2.2\tests\src\XSValueTest\XSValueTest.cpp(1660): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\dev\3rdParty\Xerces\3.2.2\tests\src\XSValueTest\XSValueTest.cpp(1808): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\dev\3rdParty\Xerces\3.2.2\tests\src\XSValueTest\XSValueTest.cpp(1965): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+  XSValueTest.vcxproj -> C:\dev\3rdParty\Xerces\3.2.2\Build\VS15\tests\Debug\XSValueTest.exe
